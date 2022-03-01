@@ -1,0 +1,794 @@
+rm -f img.o output.o main.o input.o compute.o fail.o heat_seq
+gcc -O2 -std=gnu99 -I../../include -c img.c -o img.o 	
+gcc -O2 -std=gnu99 -I../../include -c output.c -o output.o 	
+gcc -O2 -std=gnu99 -I../../include -c main.c -o main.o 	
+gcc -O2 -std=gnu99 -I../../include -c input.c -o input.o 	
+gcc -O2 -std=gnu99 -I../../include -c compute.c -o compute.o 	
+gcc -O2 -std=gnu99 -I../../include -c fail.c -o fail.o 	
+gcc -O2 -std=gnu99 -I../../include img.o output.o main.o input.o compute.o fail.o -o heat_seq
+===heat_seq===
+14 heat map(s) to measure
+SIZE: 1000,1000,1000000
+CORES: 1
+Parameters:
+  -n 1000 # number of rows
+  -m 1000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.978344e+01  6.483315e+01  1.481700e-03  4.125139e+01  1.924948e+01  3.117020e+09
+Parameters:
+  -n 1000 # number of rows
+  -m 1000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.978344e+01  6.483315e+01  1.481700e-03  4.125139e+01  1.919441e+01  3.125962e+09
+Parameters:
+  -n 1000 # number of rows
+  -m 1000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_1000x1000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.978344e+01  6.483315e+01  1.481700e-03  4.125139e+01  1.923068e+01  3.120066e+09
+SIZE: 100,100,10000
+CORES: 1
+Parameters:
+  -n 100 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           3.407619e+01  4.967734e+01  5.169021e-04  4.131815e+01  2.566451e-01  2.337898e+09
+Parameters:
+  -n 100 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           3.407619e+01  4.967734e+01  5.169021e-04  4.131815e+01  2.559141e-01  2.344575e+09
+Parameters:
+  -n 100 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           3.407619e+01  4.967734e+01  5.169021e-04  4.131815e+01  2.568456e-01  2.336073e+09
+SIZE: 2000,2000,4000000
+CORES: 1
+Parameters:
+  -n 2000 # number of rows
+  -m 2000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.179061e+01  5.732781e+01  1.694643e-03  3.990446e+01  7.681007e+01  3.124642e+09
+Parameters:
+  -n 2000 # number of rows
+  -m 2000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.179061e+01  5.732781e+01  1.694643e-03  3.990446e+01  7.685175e+01  3.122948e+09
+Parameters:
+  -n 2000 # number of rows
+  -m 2000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_2000x2000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.179061e+01  5.732781e+01  1.694643e-03  3.990446e+01  7.680024e+01  3.125042e+09
+SIZE: 100,20000,2000000
+CORES: 1
+Parameters:
+  -n 100 # number of rows
+  -m 20000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_20000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_20000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_20000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_20000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.493292e+01  6.762563e+01  1.526848e-03  3.987839e+01  3.830737e+01  3.132608e+09
+Parameters:
+  -n 100 # number of rows
+  -m 20000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_20000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_20000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_20000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_20000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.493292e+01  6.762563e+01  1.526848e-03  3.987839e+01  3.842038e+01  3.123394e+09
+Parameters:
+  -n 100 # number of rows
+  -m 20000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_20000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_20000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_20000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_20000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.493292e+01  6.762563e+01  1.526848e-03  3.987839e+01  3.843502e+01  3.122205e+09
+SIZE: 20000,100,2000000
+CORES: 1
+Parameters:
+  -n 20000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x20000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x20000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x20000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x20000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.752740e+01  5.691011e+01  1.363147e-03  4.135213e+01  4.007039e+01  2.994780e+09
+Parameters:
+  -n 20000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x20000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x20000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x20000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x20000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.752740e+01  5.691011e+01  1.363147e-03  4.135213e+01  4.091042e+01  2.933287e+09
+Parameters:
+  -n 20000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x20000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x20000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x20000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x20000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.752740e+01  5.691011e+01  1.363147e-03  4.135213e+01  4.011993e+01  2.991082e+09
+SIZE: 100,10000,1000000
+CORES: 1
+Parameters:
+  -n 100 # number of rows
+  -m 10000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_10000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_10000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_10000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_10000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.446632e+01  6.749901e+01  1.778748e-03  4.245775e+01  1.891438e+01  3.172243e+09
+Parameters:
+  -n 100 # number of rows
+  -m 10000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_10000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_10000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_10000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_10000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.446632e+01  6.749901e+01  1.778748e-03  4.245775e+01  1.864877e+01  3.217424e+09
+Parameters:
+  -n 100 # number of rows
+  -m 10000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_10000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_10000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_10000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_10000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.446632e+01  6.749901e+01  1.778748e-03  4.245775e+01  1.951719e+01  3.074264e+09
+SIZE: 10000,100,1000000
+CORES: 1
+Parameters:
+  -n 10000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x10000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x10000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x10000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x10000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           3.032305e+01  5.257332e+01  1.068911e-03  4.014975e+01  1.937321e+01  3.097112e+09
+Parameters:
+  -n 10000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x10000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x10000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x10000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x10000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           3.032305e+01  5.257332e+01  1.068911e-03  4.014975e+01  1.923347e+01  3.119614e+09
+Parameters:
+  -n 10000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x10000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x10000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x10000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x10000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           3.032305e+01  5.257332e+01  1.068911e-03  4.014975e+01  1.938962e+01  3.094491e+09
+SIZE: 30000,100,3000000
+CORES: 1
+Parameters:
+  -n 30000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x30000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x30000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x30000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x30000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.620166e+01  5.639007e+01  1.257824e-03  3.938257e+01  6.025640e+01  2.987284e+09
+Parameters:
+  -n 30000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x30000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x30000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x30000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x30000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.620166e+01  5.639007e+01  1.257824e-03  3.938257e+01  5.986297e+01  3.006917e+09
+Parameters:
+  -n 30000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x30000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x30000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x30000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x30000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.620166e+01  5.639007e+01  1.257824e-03  3.938257e+01  6.003732e+01  2.998185e+09
+SIZE: 40000,100,4000000
+CORES: 1
+Parameters:
+  -n 40000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x40000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x40000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x40000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x40000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.754639e+01  5.290292e+01  1.431059e-03  4.045597e+01  8.063696e+01  2.976352e+09
+Parameters:
+  -n 40000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x40000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x40000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x40000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x40000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.754639e+01  5.290292e+01  1.431059e-03  4.045597e+01  8.058283e+01  2.978352e+09
+Parameters:
+  -n 40000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x40000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x40000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x40000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x40000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.754639e+01  5.290292e+01  1.431059e-03  4.045597e+01  8.051622e+01  2.980815e+09
+SIZE: 50000,100,5000000
+CORES: 1
+Parameters:
+  -n 50000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x50000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x50000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x50000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x50000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.408645e+01  5.824726e+01  1.199616e-03  4.052679e+01  1.001394e+02  2.995872e+09
+Parameters:
+  -n 50000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x50000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x50000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x50000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x50000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.408645e+01  5.824726e+01  1.199616e-03  4.052679e+01  1.012126e+02  2.964108e+09
+Parameters:
+  -n 50000 # number of rows
+  -m 100 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_100x50000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_100x50000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x50000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_100x50000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           2.408645e+01  5.824726e+01  1.199616e-03  4.052679e+01  1.001289e+02  2.996187e+09
+SIZE: 100,30000,3000000
+CORES: 1
+Parameters:
+  -n 100 # number of rows
+  -m 30000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_30000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_30000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_30000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_30000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.448324e+01  6.747090e+01  1.547095e-03  3.982430e+01  5.784665e+01  3.111727e+09
+Parameters:
+  -n 100 # number of rows
+  -m 30000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_30000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_30000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_30000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_30000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.448324e+01  6.747090e+01  1.547095e-03  3.982430e+01  6.543910e+01  2.750695e+09
+Parameters:
+  -n 100 # number of rows
+  -m 30000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_30000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_30000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_30000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_30000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.448324e+01  6.747090e+01  1.547095e-03  3.982430e+01  5.759635e+01  3.125250e+09
+SIZE: 100,40000,4000000
+CORES: 1
+Parameters:
+  -n 100 # number of rows
+  -m 40000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_40000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_40000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_40000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_40000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.470929e+01  6.643725e+01  1.485028e-03  3.996463e+01  7.682897e+01  3.123874e+09
+Parameters:
+  -n 100 # number of rows
+  -m 40000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_40000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_40000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_40000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_40000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.470929e+01  6.643725e+01  1.485028e-03  3.996463e+01  7.692322e+01  3.120046e+09
+Parameters:
+  -n 100 # number of rows
+  -m 40000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_40000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_40000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_40000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_40000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.470929e+01  6.643725e+01  1.485028e-03  3.996463e+01  7.691534e+01  3.120366e+09
+SIZE: 100,50000,5000000
+CORES: 1
+Parameters:
+  -n 100 # number of rows
+  -m 50000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_50000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_50000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_50000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_50000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.460307e+01  6.739742e+01  1.734904e-03  3.939258e+01  9.613016e+01  3.120821e+09
+Parameters:
+  -n 100 # number of rows
+  -m 50000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_50000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_50000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_50000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_50000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.460307e+01  6.739742e+01  1.734904e-03  3.939258e+01  9.619946e+01  3.118573e+09
+Parameters:
+  -n 100 # number of rows
+  -m 50000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_50000x100.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_50000x100.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_50000x100.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_50000x100.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.460307e+01  6.739742e+01  1.734904e-03  3.939258e+01  9.623938e+01  3.117279e+09
+SIZE: 5000,5000,25000000
+CORES: 1
+Parameters:
+  -n 5000 # number of rows
+  -m 5000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.772947e+01  5.870447e+01  1.650896e-03  4.051228e+01  4.807708e+02  3.120042e+09
+Parameters:
+  -n 5000 # number of rows
+  -m 5000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.772947e+01  5.870447e+01  1.650896e-03  4.051228e+01  4.817472e+02  3.113718e+09
+Parameters:
+  -n 5000 # number of rows
+  -m 5000 # number of columns
+  -i 5000 # maximum number of iterations
+  -k 5000 # reduction period
+  -e 1.000000e-06 # convergence threshold
+  -c ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm # input file for conductivity
+  -t ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm # input file for initial temperatures
+  -L 0.000000e+00 # coolest temperature in input/output
+  -H 1.000000e+02 # highest temperature in input/output
+  -p 1 # number of threads (if applicable)
+  -r 0 # print intermediate reports every reduction cycle
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm...
+Reading PGM data from ../../metrics/assignment_2/heat/data/areas_5000x5000.pgm...
+Output:
+
+   Iterations        T(min)        T(max)       T(diff)        T(avg)          Time        FLOP/s
+5000           1.772947e+01  5.870447e+01  1.650896e-03  4.051228e+01  4.816098e+02  3.114607e+09
