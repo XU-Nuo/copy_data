@@ -1,0 +1,128 @@
+===project===
+5 matrix to measure
+Total frames: 823
+Computation time: 13.997592 seconds 
+Total frames: 823
+Computation time: 14.109597 seconds 
+Total frames: 823
+Computation time: 14.098576 seconds 
+Total frames: 823
+Computation time: 14.121292 seconds 
+Total frames: 823
+Computation time: 14.077590 seconds 
+Total frames: 823
+Computation time: 14.105955 seconds 
+Total frames: 823
+Computation time: 14.232781 seconds 
+Total frames: 823
+Computation time: 14.113095 seconds 
+Total frames: 823
+Computation time: 14.167439 seconds 
+Total frames: 823
+Computation time: 14.166223 seconds 
+Total frames: 823
+Computation time: 14.256120 seconds 
+Total frames: 823
+Computation time: 14.279392 seconds 
+Total frames: 823
+Computation time: 14.299384 seconds 
+Total frames: 823
+Computation time: 14.281323 seconds 
+Total frames: 823
+Computation time: 14.283028 seconds 
+Total frames: 823
+Computation time: 14.291792 seconds 
+Total frames: 823
+Computation time: 14.267111 seconds 
+Total frames: 823
+Computation time: 14.279591 seconds 
+Total frames: 823
+Computation time: 14.281756 seconds 
+Total frames: 823
+Computation time: 14.256239 seconds 
+Total frames: 823
+Computation time: 14.041661 seconds 
+Total frames: 823
+Computation time: 14.280578 seconds 
+Total frames: 823
+Computation time: 14.232967 seconds 
+Total frames: 823
+Computation time: 14.251918 seconds 
+Total frames: 823
+Computation time: 14.280299 seconds 
+Total frames: 823
+Computation time: 14.299327 seconds 
+Total frames: 823
+Computation time: 14.288030 seconds 
+Total frames: 823
+Computation time: 14.265806 seconds 
+Total frames: 823
+Computation time: 14.249480 seconds 
+Total frames: 823
+Computation time: 14.252341 seconds 
+Total frames: 823
+Computation time: 13.960556 seconds 
+Total frames: 823
+Computation time: 13.916213 seconds 
+Total frames: 823
+Computation time: 14.246363 seconds 
+Total frames: 823
+Computation time: 14.281044 seconds 
+Total frames: 823
+Computation time: 14.299084 seconds 
+Total frames: 823
+Computation time: 14.262648 seconds 
+Total frames: 823
+Computation time: 14.243527 seconds 
+Total frames: 823
+Computation time: 14.267105 seconds 
+Total frames: 823
+Computation time: 14.288274 seconds 
+Total frames: 823
+Computation time: 14.330275 seconds 
+Total frames: 823
+Computation time: 14.265721 seconds 
+Total frames: 823
+Computation time: 14.310252 seconds 
+Total frames: 823
+Computation time: 14.273118 seconds 
+Total frames: 823
+Computation time: 14.240429 seconds 
+Total frames: 823
+Computation time: 14.238876 seconds 
+Total frames: 823
+Computation time: 14.255234 seconds 
+Total frames: 823
+Computation time: 14.277585 seconds 
+Total frames: 823
+Computation time: 14.251908 seconds 
+Total frames: 823
+Computation time: 14.293752 seconds 
+Total frames: 823
+Computation time: 14.317314 seconds 
+Total frames: 823
+Computation time: 14.290586 seconds 
+Total frames: 823
+Computation time: 14.243144 seconds 
+Total frames: 823
+Computation time: 14.266979 seconds 
+Total frames: 823
+Computation time: 14.253077 seconds 
+Total frames: 823
+Computation time: 14.208877 seconds 
+Total frames: 823
+Computation time: 14.289827 seconds 
+Total frames: 823
+Computation time: 14.298903 seconds 
+Total frames: 823
+Computation time: 14.254133 seconds 
+Total frames: 823
+Computation time: 14.295119 seconds 
+Total frames: 823
+Computation time: 14.231430 seconds 
+Total frames: 823
+Computation time: 14.266417 seconds 
+Total frames: 823
+Computation time: 14.239938 seconds 
+Total frames: 823
+Computation time: 14.315418 seconds 
