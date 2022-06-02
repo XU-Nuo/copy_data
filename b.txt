@@ -1,0 +1,102 @@
+===project===
+5 matrix to measure
+Total frames: 823
+Computation time: 14.436227 seconds 
+Total frames: 823
+Computation time: 14.074480 seconds 
+Total frames: 823
+Computation time: 14.174640 seconds 
+Total frames: 823
+Computation time: 14.074736 seconds 
+Total frames: 823
+Computation time: 14.091685 seconds 
+Total frames: 823
+Computation time: 14.050398 seconds 
+Total frames: 823
+Computation time: 14.127177 seconds 
+Total frames: 823
+Computation time: 14.191442 seconds 
+Total frames: 823
+Computation time: 14.167025 seconds 
+Total frames: 823
+Computation time: 14.152688 seconds 
+Total frames: 823
+Computation time: 14.174641 seconds 
+Total frames: 823
+Computation time: 14.293308 seconds 
+Total frames: 823
+Computation time: 14.273892 seconds 
+Total frames: 823
+Computation time: 14.246246 seconds 
+Total frames: 823
+Computation time: 14.260007 seconds 
+Total frames: 823
+Computation time: 14.284761 seconds 
+Total frames: 823
+Computation time: 14.269681 seconds 
+Total frames: 823
+Computation time: 14.251879 seconds 
+Total frames: 823
+Computation time: 14.291079 seconds 
+Total frames: 823
+Computation time: 14.310949 seconds 
+Total frames: 823
+Computation time: 14.280832 seconds 
+Total frames: 823
+Computation time: 14.294794 seconds 
+Total frames: 823
+Computation time: 14.297225 seconds 
+Total frames: 823
+Computation time: 14.298724 seconds 
+Total frames: 823
+Computation time: 14.270268 seconds 
+Total frames: 823
+Computation time: 14.233742 seconds 
+Total frames: 823
+Computation time: 14.250921 seconds 
+Total frames: 823
+Computation time: 14.307223 seconds 
+Total frames: 823
+Computation time: 14.308433 seconds 
+Total frames: 823
+Computation time: 14.010034 seconds 
+Total frames: 823
+Computation time: 14.275202 seconds 
+Total frames: 823
+Computation time: 14.282091 seconds 
+Total frames: 823
+Computation time: 14.281745 seconds 
+Total frames: 823
+Computation time: 14.272078 seconds 
+Total frames: 823
+Computation time: 14.297527 seconds 
+Total frames: 823
+Computation time: 14.279533 seconds 
+Total frames: 823
+Computation time: 14.250486 seconds 
+Total frames: 823
+Computation time: 14.308404 seconds 
+Total frames: 823
+Computation time: 14.230709 seconds 
+Total frames: 823
+Computation time: 14.283985 seconds 
+Total frames: 823
+Computation time: 14.307708 seconds 
+Total frames: 823
+Computation time: 14.262013 seconds 
+Total frames: 823
+Computation time: 14.273984 seconds 
+Total frames: 823
+Computation time: 14.180511 seconds 
+Total frames: 823
+Computation time: 14.271911 seconds 
+Total frames: 823
+Computation time: 14.260339 seconds 
+Total frames: 823
+Computation time: 14.256032 seconds 
+Total frames: 823
+Computation time: 14.274604 seconds 
+Total frames: 823
+Computation time: 14.274461 seconds 
+Total frames: 823
+Computation time: 14.274076 seconds 
